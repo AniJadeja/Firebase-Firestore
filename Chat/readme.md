@@ -1,0 +1,1 @@
+This project is chat app for two or more persons. It uses firestore as a backend to store the messages. When ever any change happens in database firestore reflects that change everywhere and using a web envireonment we can show that messages to user or allow user to interact with each other..
