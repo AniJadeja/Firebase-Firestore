@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Storage app</title>
+	<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>	
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="container">
+
+		<div id="progress-container">
+			<progress max="100"></progress>
+		</div>
+
+		<img id="myimg" />
+		<div class="buttons-grid">
+			<div>
+				<input type="file" id="upload-button">
+            </div>
+            <div>
+                <button id="clear" class="blue-button">Remove all photos</button>
+            </div>
+        </div>
+        
+        <div id="images"></div>
+
+	</div>
+    <script defer src="app.js"></script>
+</body>
+</html>
